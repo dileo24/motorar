@@ -3,54 +3,63 @@
     "img": "https://marellisports.com.ar/wp-content/uploads/2020/06/campera-cordura-nto-fuse-negro-gris-11-0d6f7ea4b253f56d7715899831178606-480-0.jpg",
     "nombre": "Campera Ninetcone Negra",
     "precio": "15.000",
-    "tipo": "Indumentaria"
+    "tipo": "Indumentaria",
+    "id": 1
   },
   {
-    "img": "https://ktmsatelite.com.mx/wp-content/uploads/2016/10/315808_390-Duke-INDIA-2020-ALL-OVER-THE-WORLD-2021-1024x683.jpg",
+    "img": "https://urquizamotos.com.ar/64406-large_default/ktm-duke-390.jpg",
     "nombre": "KTM Duke 390cc",
     "precio": "3.600.000",
-    "tipo": "Moto Street"
+    "tipo": "Moto Street",
+    "id": 2
   },
   {
-    "img": "https://www.corrientesmotos.com.ar/wp-content/uploads/2020/09/casco-h5-negro.png",
+    "img": "https://urquizamotos.com.ar/65738-large_default/casco-integral-halcon-h5-negro.jpg",
     "nombre": "Casco Halcon Negro",
     "precio": "7.000",
-    "tipo": "Protección"
+    "tipo": "Protección",
+    "id": 3
   },
   {
     "img": "https://enduro21.com/images/2022/march-2022/2022-honda-xr650l/2022-honda-xr650l_rhp.jpg",
     "nombre": "Honda XR 650L",
     "precio": "3.800.000",
-    "tipo": "Moto Cross"
+    "tipo": "Moto Cross",
+    "id": 4
   },
   {
     "img": "https://http2.mlstatic.com/D_NQ_NP_993730-MLA41165187641_032020-O.jpg",
     "nombre": "Casco Oneal 2S",
     "precio": "34.200",
-    "tipo": "Protección"
+    "tipo": "Protección",
+    "id": 5
   },
   {
     "img": "https://http2.mlstatic.com/D_NQ_NP_838303-MPE46252084900_062021-V.jpg",
     "nombre": "Linga On Guard 160x12cm",
     "precio": "25.300",
-    "tipo": "Protección"
+    "tipo": "Protección",
+    "id": 6
   },
   {
     "img": "https://motos-b60.kxcdn.com/sites/default/files/kawasaki_h2r-2022.jpg",
     "nombre": "Kawasaki Ninja H2R",
     "precio": "20.300.000",
-    "tipo": "Moto Sport"
+    "tipo": "Moto Sport",
+    "id": 7
   },
   {
     "img": "https://http2.mlstatic.com/D_NQ_NP_973860-MLA54552661157_032023-O.webp",
     "nombre": "Guantes Cross Atv",
     "precio": "6.500",
-    "tipo": "Indumentaria"
+    "tipo": "Indumentaria",
+    "id": 8
   },
   {
     "img": "https://http2.mlstatic.com/D_NQ_NP_900168-MLA46389081230_062021-O.webp",
     "nombre": "Conjunto Térmico Alpina",
     "precio": "7.200",
-    "tipo": "Indumentaria"
+    "tipo": "Indumentaria",
+    "id": 9
   }
 ]

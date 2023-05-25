@@ -1,0 +1,32 @@
+.footerContainer {
+  background-color: rgb(150, 150, 150);
+  padding: 3% 0;
+  p {
+    @include centerCol;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .p1 {
+    font-size: 1.5vw;
+  }
+  .p2 {
+    font-size: 1vw;
+  }
+  .p3 {
+    font-size: 0.8vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .footerContainer {
+    .p1 {
+      font-size: 2.5vw;
+    }
+    .p2 {
+      font-size: 2vw;
+    }
+    .p3 {
+      font-size: 1.8vw;
+    }
+  }
+}

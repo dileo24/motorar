@@ -1,0 +1,8 @@
+.homeContainer {
+  // @include titulos;
+  background-color: black;
+
+  .home-subContainer {
+    flex-direction: column;
+  }
+}

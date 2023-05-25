@@ -1,0 +1,131 @@
+.navContainer {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 0px 0px 0.8rem 0px rgba(0, 0, 0, 0.207);
+  padding: 1% 0;
+  border-radius: 0 0 2.5rem 2.5rem;
+  -webkit-border-radius: 0 0 2.5rem 2.5rem;
+  -moz-border-radius: 0 0 2.5rem 2.5rem;
+  -ms-border-radius: 0 0 2.5rem 2.5rem;
+  -o-border-radius: 0 0 2.5rem 2.5rem;
+  .navbar {
+    --bs-navbar-padding-y: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .navbar-brand {
+      width: 9%;
+      .logo {
+        width: 100%;
+        margin-left: 20%;
+      }
+    }
+    .navbar-nav {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 0.5%;
+      .nav-link {
+        // color: $magenta;
+        color: black;
+        /* font-weight: bolder; */
+        font-size: 1.1vw;
+        margin-right: 1%;
+        transition: all 0.3s;
+        padding-bottom: 0;
+      }
+      .nav-link:hover {
+        color: $magenta;
+        /* border-bottom: 1px solid $magenta; */
+      }
+    }
+  }
+}
+
+.active {
+  color: $magenta !important;
+}
+
+///// Responsive /////
+
+// Celulares horizontal y tablets
+@media only screen and (min-width: 700px) and (max-width: 991px) {
+  .navContainer {
+    border-radius: 0 0 1.5rem 1.5rem;
+    -webkit-border-radius: 0 0 1.5rem 1.5rem;
+    -moz-border-radius: 0 0 1.5rem 1.5rem;
+    -ms-border-radius: 0 0 1.5rem 1.5rem;
+    -o-border-radius: 0 0 1.5rem 1.5rem;
+    padding: 0.5% 0;
+    .navbar {
+      .containNav {
+        .navbar-brand {
+          width: 18%;
+          .logo {
+            width: auto;
+            height: 2rem;
+          }
+        }
+        .navbar-toggler {
+          width: 10%;
+          border: none !important;
+        }
+        .navbar-toggler:focus {
+          box-shadow: none;
+          border: none !important;
+        }
+        .navbar-collapse {
+          .navbar-nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .nav-link {
+              margin: 2%;
+              font-size: 2vw;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Celulares vertical
+@media only screen and (max-width: 700px) {
+  .navContainer {
+    border-radius: 0 0 1.5rem 1.5rem;
+    -webkit-border-radius: 0 0 1.5rem 1.5rem;
+    -moz-border-radius: 0 0 1.5rem 1.5rem;
+    -ms-border-radius: 0 0 1.5rem 1.5rem;
+    -o-border-radius: 0 0 1.5rem 1.5rem;
+    .navbar {
+      .containNav {
+        .navbar-brand {
+          width: 40%;
+          .logo {
+            margin-left: 5%;
+          }
+        }
+        .navbar-toggler {
+          border: none;
+          margin-right: 0;
+        }
+        .navbar-toggler:focus {
+          box-shadow: none;
+        }
+        .navbar-collapse {
+          .navbar-nav {
+            @include centerCol;
+            .nav-link {
+              margin: 1%;
+              font-size: 4vw;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

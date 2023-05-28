@@ -1,7 +1,11 @@
 .homeContainer {
-  // @include titulos;
-
   .home-subContainer {
-    flex-direction: column;
+    border: 1px solid red;
+    padding-top: 10%;
+    @include center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin: 0 5% 0 5%;
   }
 }

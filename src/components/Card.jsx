@@ -6,8 +6,11 @@ export default function Card({ nombre, precio, img, id }) {
       <div className="divImg">
         <img src={img} alt="img" />
       </div>
-      <p className="titulo">{nombre}</p>
-      <p className="preicio">{precio}</p>
+      <p className="nombre">{nombre}</p>
+      <p className="precio">
+        {"$"}
+        {precio}
+      </p>
       <button>Consultar cotización</button>
     </div>
   );

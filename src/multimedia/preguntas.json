@@ -1,0 +1,67 @@
+[
+  {
+    "titulo": "¿Cuándo voy a recibir respuesta?",
+    "resp": "Ante cualquier tipo de contacto (ya sea por Whatsapp, Instagram, Linkedin o nuestro formulario de contacto) nos comprometemos a responder lo antes posible. Recordá que podés hablarnos en cualquier hora del día, tu consulta nunca es molestia!",
+    "tipo": "comunicacion"
+  },
+  {
+    "titulo": "¿Puedo tener un plan personalizado?",
+    "resp": "¡Por supuesto! Los planes que tenemos en nuestra página son estándar, es decir que es lo generalmente aplicable para cualquier página, pero en caso de que quisieras armar la tuya desde cero con especificaciones propias, podremos reunirnos cuando quieras para escuchar tus solicitudes y presupuestar el proyecto terminado.",
+    "tipo": "planes"
+  },
+  {
+    "titulo": "¿Cuánto tarda la página en estar lista?",
+    "resp": "La duración de cada proyecto variará dependiendo de las necesidades que tenga el cliente y la cantidad de proyectos que se estén realizando en ese momento, pero podemos aproximar una duración con cada plan estandar:\n ⌚ BRONCE: 3 semanas.\n ⌚ PLATA: 5 semanas.\n ⌚ ORO: 6 semanas.",
+    "tipo": "pagina"
+  },
+  {
+    "titulo": "¿Cómo se realiza el pago del proyecto?",
+    "resp": "El pago del proyecto se realizará en tres instancias:\n\n ✓La primera será el 20% del valor total (a modo de seña) apenas se confirme el proyecto e inicie su elaboración.\n ✓El segundo pago se realizará en la mitad de la duración estimada del proyecto, siendo otro 30% del valor total.\n ✓Finalmente el último pago se realizará cuando el proyecto ya haya sido entregado y finalizado, que sería el valor restante a pagar, es decir el 50% total.\n\nEsta división de pagos se plantea así para asegurar que el trabajo de nuestros profesionales sea correctamente remunerado y no tener trabajo o gastos innecesarios.",
+    "tipo": "planes"
+  },
+  {
+    "titulo": "¿Es obligatorio pagar el soporte técnico?",
+    "resp": "No es obligatorio pagar o suscribirse al soporte técnico! Es un plan extra que ofrecemos tras realizar la entrega final para asegurarte cualquier tipo de cambio o modificación posterior.\nRecomendamos suscribir a este plan para contar con un seguimiento constante de nuestros profesionales a cargo.",
+    "tipo": "planes"
+  },
+  {
+    "titulo": "¿Cuándo puedo ver avances de la página?",
+    "resp": "Vas a poder ver avances siempre que quieras! Estaremos en constante contacto para mantenerte al día sobre nuestros avances y mandarte cualquier foto, video o incluso agendar una reunión para poder mostrarte a tiempo real.\nDe igual manera, recordá que tenemos programadas mínimo 3 reuniones en caso de confirmar el proyecto!\n\n✓La primera, para plantear las ideas que próximamente se plasmarán en el diseño.\n✓La segunda, para mostrar los avances a mediados del proyecto, donde se verán las primeras funcionalidades de la página.\n✓La tercera, con una demo final lista para entregar pero abierta a modificaciones adicionales que se quieran realizar.",
+    "tipo": "pagina"
+  },
+  {
+    "titulo": "¿Como es el proceso tras confirmar el proyecto?",
+    "resp": "El proceso tras confirmar el proyecto es el siguiente:\n\n📝 Primero agendaremos una reunión por Google Meet, Discord o Zoom donde plantearemos las primeras especificaciones del proyecto.\n✍ Luego de este momento, se realizará el primer pago (a modo de seña, será el 20% del valor total) para que el área de diseño gráfico se encargue a partir de ese momento de realizar el diseño completo para su página en un lapso de 1 a 2 semanas, constantemente se comunicarán con vos para confirmar que el diseño va por el camino que deseas.\n👨‍💻 Luego de este tiempo, el diseño pasará al área de desarrollo, donde se realizará el segundo pago (para asegurar el interés de continuar el proyecto y será de otro 30% del valor total), luego los programadores empezarán a plasmar los diseños en una página real que vos mismo podrás ir viendo y luego probando. Este lapso de desarrollo tardará entre 2 a 4 semanas (dependiendo de la magnitud del proyecto) y en la mitad de este tiempo se llevará a cabo una reunión en la que hablaremos del rumbo hasta ese momento del proyecto para solucionar cualquier problema o inquietud existente.\n💯 Finalmente, el proyecto finalizado será oficialmente subido a internet, en esta instancia se entregaría el %50 restante del valor total y un adicional de AR$1000 para subir la página a un servidor virtual (Hostinger) y comprar un dominio propio para su empresa(esta información puede ser esclarecida en nuestra reunión o por alguno de nuestros medios de contacto).",
+    "tipo": "pagina"
+  },
+  {
+    "titulo": "¿Puedo cancelar el proyecto luego de que iniciara?",
+    "resp": "Por supuesto! Podés cancelarlo en cualquier momento, pero te recomendamos hacerlo antes de llegar a alguna de las instancias de pago.",
+    "tipo": "pagina"
+  },
+  {
+    "titulo": "¿Cuál es la ventaja del plan ORO (autogestionable)?",
+    "resp": "La ventaja de poseer una página autogestionable es que podés tener control completo sobre la información que se muestra.\nEstá especialmente diseñado para comercios que necesiten actualiar constantemente los productos/servicios a la venta, ya que con el Plan ORO podrás crear, editar y eliminar productos por ejemplo.",
+    "tipo": "planes"
+  },
+  {
+    "titulo": "¿Pueden asesorarme si no entiendo como funcionaría la página?",
+    "resp": "¡Por supuesto! Únicamente tenés que comunicarte con nosotros por alguno de los medios existentes (Whatsapp, Instagram, Linkedin o nuestro formulario de contacto) y nosotros responderemos lo antes posible a tu duda o, incluso, podríamos agendar un meet con alguno de nuestros integrantes para tener una explicación mucho más clara y concisa de lo que necesites.",
+    "tipo": "comunicacion"
+  },
+  {
+    "titulo": "¿Cuál es la diferencia entre una Landing Page y una Multipágina?",
+    "resp": "Una landing page (como el inicio de nuestra página), está diseñada con el propósito de captar la atención del visitante y llevarlo a realizar una acción deseada, como completar un formulario, realizar una consulta o pedir cotización de un servicio, tienen un diseño simple y están enfocadas en resaltar una oferta o mensaje clave, con el objetivo de lograr una conversión efectiva. \n\nPor otro lado, una multipágina (como el proyecto SanTor, que tenemos en nuestro portafolio) consta de varias páginas interconectadas, incluyendo secciones como la página de inicio, información de la empresa, servicios, productos, blog, contacto, entre otras. El propósito es proporcionar una visión más completa y detallada de una empresa, organización o tema en particular.",
+    "tipo": "pagina"
+  },
+  {
+    "titulo": "¿De dónde son? ¿Puedo pedir una página desde fuera y comunicarme online?",
+    "resp": "Nosotros somos de la Córdoba, Córdoba, Argentina. Podemos acercarnos a distintos lugares para coordinar una reunión presencial o en su defecto no habrá problema de promagar una reunión virtual para tener una mejor comunicación! Aunque siempre están abiertos nuestros canales de comunicación (Whatsapp, Instagram, Linkedin o nuestro formulario de contacto).",
+    "tipo": "comunicacion"
+  },
+  {
+    "titulo": "¿Si pagué y recibí el Plan BRONCE, puedo luego una mejora al Plan PLATA u ORO?",
+    "resp": "¡Por Supuesto! Tras realizado cualquier plan este puede ser mejorado, recibirá un presupuesto adicional antes de confirmar esta solicitud de mejora y la modalidad de pago será igual a la que se realiza en cualquier solicitud de plan/proyecto.",
+    "tipo": "planes"
+  }
+]

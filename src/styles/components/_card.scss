@@ -1,21 +1,36 @@
 .cardContainer {
   @include centerCol;
-  margin: 0 15% 0 15%;
-  padding: 5% 1px 2.5% 1px;
-
-  background-color: $grisClaro;
+  background-color: white;
+  margin: 3rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
   .divImg {
-    background-color: white;
     @include center;
-    width: 100%;
+    width: 20rem;
     height: 20rem;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10%;
     img {
-      height: 100%;
+      height: 65%;
     }
   }
   button {
     background-color: red;
     color: white;
-    margin-top: 30%;
+    margin: 10% 0;
+    padding: 2% 4%;
+    box-shadow: 0px 0px 0.8rem 0px rgba(0, 0, 0, 0.207);
+    border: none;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+  }
+  button:hover {
+    background-color: rgb(170, 0, 0);
   }
 }

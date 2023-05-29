@@ -1,11 +1,14 @@
 .homeContainer {
-  .home-subContainer {
-    border: 1px solid red;
-    padding-top: 10%;
+  background-color: rgba(0, 0, 0, 0.95);
+  .title {
     @include center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5rem;
-    margin: 0 5% 0 5%;
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+  .home-subContainer {
+    @include center;
+    flex-wrap: wrap;
+    padding: 2rem;
   }
 }

@@ -1,15 +1,10 @@
 .navContainer {
   width: 100%;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   position: fixed;
   z-index: 9999;
   box-shadow: 0px 0px 0.8rem 0px rgba(0, 0, 0, 0.207);
   padding: 1% 0;
-  border-radius: 0 0 2.5rem 2.5rem;
-  -webkit-border-radius: 0 0 2.5rem 2.5rem;
-  -moz-border-radius: 0 0 2.5rem 2.5rem;
-  -ms-border-radius: 0 0 2.5rem 2.5rem;
-  -o-border-radius: 0 0 2.5rem 2.5rem;
   .navbar {
     --bs-navbar-padding-y: none;
     display: flex;
@@ -29,7 +24,7 @@
       padding-bottom: 0.5%;
       .nav-link {
         // color: $magenta;
-        color: black;
+        color: rgb(255, 255, 255);
         /* font-weight: bolder; */
         font-size: 1.1vw;
         margin-right: 1%;
@@ -53,11 +48,6 @@
 // Celulares horizontal y tablets
 @media only screen and (min-width: 700px) and (max-width: 991px) {
   .navContainer {
-    border-radius: 0 0 1.5rem 1.5rem;
-    -webkit-border-radius: 0 0 1.5rem 1.5rem;
-    -moz-border-radius: 0 0 1.5rem 1.5rem;
-    -ms-border-radius: 0 0 1.5rem 1.5rem;
-    -o-border-radius: 0 0 1.5rem 1.5rem;
     padding: 0.5% 0;
     .navbar {
       .containNav {
@@ -71,6 +61,8 @@
         .navbar-toggler {
           width: 10%;
           border: none !important;
+          filter: brightness(10);
+          -webkit-filter: brightness(10);
         }
         .navbar-toggler:focus {
           box-shadow: none;
@@ -95,11 +87,6 @@
 // Celulares vertical
 @media only screen and (max-width: 700px) {
   .navContainer {
-    border-radius: 0 0 1.5rem 1.5rem;
-    -webkit-border-radius: 0 0 1.5rem 1.5rem;
-    -moz-border-radius: 0 0 1.5rem 1.5rem;
-    -ms-border-radius: 0 0 1.5rem 1.5rem;
-    -o-border-radius: 0 0 1.5rem 1.5rem;
     .navbar {
       .containNav {
         .navbar-brand {
@@ -111,6 +98,8 @@
         .navbar-toggler {
           border: none;
           margin-right: 0;
+          filter: brightness(10);
+          -webkit-filter: brightness(10);
         }
         .navbar-toggler:focus {
           box-shadow: none;

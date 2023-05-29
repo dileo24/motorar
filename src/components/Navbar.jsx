@@ -22,14 +22,8 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <nav className="navbar-nav">
-              <a className="nav-link" href="/">
-                Inicio
-              </a>
-              <a className="nav-link" href="/">
-                Portafolio
-              </a>
-              <a className="nav-link" href="/">
-                Planes
+              <a className="nav-link" href="/pregFrec">
+                Preguntas Frecuentes
               </a>
               <a className="nav-link" href="/contacto">
                 Contacto

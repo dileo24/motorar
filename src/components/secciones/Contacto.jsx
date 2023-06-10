@@ -7,6 +7,7 @@ import Footer from "../recursos/Footer";
 
 export default function Contacto() {
   const [, setEnviado] = useState(false);
+  const url = window.location.pathname.split("/").pop();
   const [animProps, setAnimProps] = useSpring(() => ({
     opacity: 0,
     transform: "scale(0.5)",
@@ -91,7 +92,7 @@ export default function Contacto() {
   return (
     <div>
       {" "}
-      <Navbar />
+      <Navbar url={url} />
       <section className="contactoContainer" id="contacto">
         <div className="formContainer">
           <form name="contacto-GoPage" netlify="true" onSubmit={handleSubmit}>

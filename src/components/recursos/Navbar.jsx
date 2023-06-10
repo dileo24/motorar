@@ -1,12 +1,26 @@
 import React from "react";
 import logo from "../../multimedia/logo2.PNG";
 
-export default function Navbar() {
+export default function Navbar({ url }) {
+  const baseUrl = "/";
+
+  const isActive = (section) => {
+    return url === section ? "active" : "";
+  };
+
+  const navLinks = [
+    { section: undefined, label: "Inicio" },
+    { section: "proteccion", label: "Protección" },
+    { section: "indumentaria", label: "Indumentaria" },
+    { section: "pregFrec", label: "Preguntas Frecuentes" },
+    { section: "contacto", label: "Contacto" },
+  ];
+
   return (
     <div className="navContainer">
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid containNav">
-          <a className="navbar-brand" href="./">
+          <a className="navbar-brand" href={baseUrl}>
             <img src={logo} alt="logo" className="logo" />
           </a>
           <button
@@ -22,21 +36,15 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <nav className="navbar-nav">
-              <a className="nav-link" href="/">
-                Inicio
-              </a>
-              <a className="nav-link" href="/proteccion">
-                Protección
-              </a>
-              <a className="nav-link" href="/indumentaria">
-                Indumentaria
-              </a>
-              <a className="nav-link" href="/pregFrec">
-                Preguntas Frecuentes
-              </a>
-              <a className="nav-link" href="/contacto">
-                Contacto
-              </a>
+              {navLinks.map((link, index) => (
+                <a
+                  key={index}
+                  className={`nav-link ${isActive(link.section)}`}
+                  href={link.section ? `${baseUrl}${link.section}` : baseUrl} // Evitar "/undefined"
+                >
+                  {link.label}
+                </a>
+              ))}
             </nav>
           </div>
         </div>

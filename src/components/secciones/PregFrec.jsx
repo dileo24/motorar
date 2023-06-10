@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router";
 import Navbar from "../recursos/Navbar";
 import Footer from "../recursos/Footer";
 import imgPreg from "../../multimedia/pregFrec.png";
@@ -8,8 +7,8 @@ import ojoCerrado from "../../multimedia/ojoCerrado.png";
 import preguntas from "../../multimedia/preguntas.json";
 
 export default function PregFrec() {
-  const pagina = useLocation().pathname;
   const [mostrando, setMostrando] = useState(false);
+  const url = window.location.pathname.split("/").pop();
 
   const handlePreg = (pregId) => {
     setMostrando((valorActual) => ({
@@ -19,7 +18,7 @@ export default function PregFrec() {
 
   return (
     <div className="pregContainer">
-      <Navbar />
+      <Navbar url={url} />
       <div className="inicio">
         <h1 className="titulo">
           Preguntas frecuentes <br /> de nuestros clientes

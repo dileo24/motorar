@@ -2,28 +2,28 @@
   {
     "img": "https://marellisports.com.ar/wp-content/uploads/2020/06/campera-cordura-nto-fuse-negro-gris-11-0d6f7ea4b253f56d7715899831178606-480-0.jpg",
     "nombre": "Campera Ninetcone Negra",
-    "precio": "15.000",
+    "precio": "15000",
     "tipo": "Indumentaria",
     "id": 1
   },
   {
     "img": "https://urquizamotos.com.ar/64406-large_default/ktm-duke-390.jpg",
     "nombre": "KTM Duke 390cc",
-    "precio": "3.600.000",
+    "precio": "3600000",
     "tipo": "Moto Street",
     "id": 2
   },
   {
     "img": "https://urquizamotos.com.ar/65738-large_default/casco-integral-halcon-h5-negro.jpg",
     "nombre": "Casco Halcon Negro",
-    "precio": "7.000",
+    "precio": "7000",
     "tipo": "Protección",
     "id": 3
   },
   {
     "img": "https://enduro21.com/images/2022/march-2022/2022-honda-xr650l/2022-honda-xr650l_rhp.jpg",
     "nombre": "Honda XR 650L",
-    "precio": "3.800.000",
+    "precio": "3800000",
     "tipo": "Moto Cross",
     "id": 4
   },
@@ -37,91 +37,91 @@
   {
     "img": "https://http2.mlstatic.com/D_NQ_NP_838303-MPE46252084900_062021-V.jpg",
     "nombre": "Linga On Guard 160x12cm",
-    "precio": "25.300",
+    "precio": "25300",
     "tipo": "Protección",
     "id": 6
   },
   {
     "img": "https://motos-b60.kxcdn.com/sites/default/files/kawasaki_h2r-2022.jpg",
     "nombre": "Kawasaki Ninja H2R",
-    "precio": "20.300.000",
+    "precio": "20300000",
     "tipo": "Moto Sport",
     "id": 7
   },
   {
     "img": "https://http2.mlstatic.com/D_NQ_NP_973860-MLA54552661157_032023-O.webp",
     "nombre": "Guantes Cross Atv",
-    "precio": "6.500",
+    "precio": "6500",
     "tipo": "Indumentaria",
     "id": 8
   },
   {
     "img": "https://http2.mlstatic.com/D_NQ_NP_900168-MLA46389081230_062021-O.webp",
     "nombre": "Conjunto Térmico Alpina",
-    "precio": "7.200",
+    "precio": "7200",
     "tipo": "Indumentaria",
     "id": 9
   },
   {
-    "img": "https://marellisports.com.ar/wp-content/uploads/2020/06/campera-cordura-nto-fuse-negro-gris-11-0d6f7ea4b253f56d7715899831178606-480-0.jpg",
-    "nombre": "Campera Ninetcone Negra",
-    "precio": "15.000",
-    "tipo": "Indumentaria",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_977001-MLA69817440072_062023-F.webp",
+    "nombre": "Honda Cb300 F Twister",
+    "precio": "1900000",
+    "tipo": "Moto Street",
     "id": 10
   },
   {
     "img": "https://urquizamotos.com.ar/64406-large_default/ktm-duke-390.jpg",
     "nombre": "KTM Duke 390cc",
-    "precio": "3.600.000",
+    "precio": "3600000",
     "tipo": "Moto Street",
     "id": 11
   },
   {
-    "img": "https://urquizamotos.com.ar/65738-large_default/casco-integral-halcon-h5-negro.jpg",
-    "nombre": "Casco Halcon Negro",
-    "precio": "7.000",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_729012-MLA51431133102_092022-F.webp",
+    "nombre": "Casco Mt Stinger Hummer A5",
+    "precio": "64800",
     "tipo": "Protección",
     "id": 12
   },
   {
-    "img": "https://enduro21.com/images/2022/march-2022/2022-honda-xr650l/2022-honda-xr650l_rhp.jpg",
-    "nombre": "Honda XR 650L",
-    "precio": "3.800.000",
-    "tipo": "Moto Cross",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_816460-MLA54976597831_042023-O.webp",
+    "nombre": "Yamaha Yzf R3",
+    "precio": "3800000",
+    "tipo": "Moto Sport",
     "id": 13
   },
   {
-    "img": "https://http2.mlstatic.com/D_NQ_NP_993730-MLA41165187641_032020-O.jpg",
-    "nombre": "Casco Oneal 2S",
-    "precio": "34.200",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_871059-MLA51507433226_092022-F.webp",
+    "nombre": "Rodilleras Cross Atv Pro Tork Titanium",
+    "precio": "11400",
     "tipo": "Protección",
     "id": 14
   },
   {
-    "img": "https://http2.mlstatic.com/D_NQ_NP_838303-MPE46252084900_062021-V.jpg",
-    "nombre": "Linga On Guard 160x12cm",
-    "precio": "25.300",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_713761-MLA69804444013_062023-F.webp",
+    "nombre": "Pechera Chamarra Protectora Integral Motocross",
+    "precio": "40500",
     "tipo": "Protección",
     "id": 15
   },
   {
-    "img": "https://motos-b60.kxcdn.com/sites/default/files/kawasaki_h2r-2022.jpg",
-    "nombre": "Kawasaki Ninja H2R",
-    "precio": "20.300.000",
-    "tipo": "Moto Sport",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_646152-MLA54290462847_032023-F.webp",
+    "nombre": "Suzuki Rmz 450 F",
+    "precio": "8640000",
+    "tipo": "Moto Cross",
     "id": 16
   },
   {
-    "img": "https://http2.mlstatic.com/D_NQ_NP_973860-MLA54552661157_032023-O.webp",
-    "nombre": "Guantes Cross Atv",
-    "precio": "6.500",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_847211-MLA69758108622_062023-F.webp",
+    "nombre": "Pantalon Termico Impermeable Alpina",
+    "precio": "20200",
     "tipo": "Indumentaria",
     "id": 17
   },
   {
-    "img": "https://http2.mlstatic.com/D_NQ_NP_900168-MLA46389081230_062021-O.webp",
-    "nombre": "Conjunto Térmico Alpina",
-    "precio": "7.200",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_666461-MLA54985464268_052023-F.webp",
+    "nombre": "Campera Moto Termica Spr Invierno Con Protecciones",
+    "precio": "31800",
     "tipo": "Indumentaria",
     "id": 18
   }

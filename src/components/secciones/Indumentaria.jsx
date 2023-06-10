@@ -16,7 +16,7 @@ export default function Indumentaria() {
     <div className="homeContainer">
       <Navbar url={url} />
       <Carrusel img1={ind1} img2={ind2} img3={ind3} />
-      <div className="title">Nuestros Productos</div>
+      <div className="title">Nuestra Indumentaria</div>
       <div className="home-subContainer">
         {pordIndum.map((p) => (
           <div key={p.id}>

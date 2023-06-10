@@ -4,12 +4,14 @@ import Contacto from "./components/secciones/Contacto";
 import PregFrec from "./components/secciones/PregFrec";
 import Indumentaria from "./components/secciones/Indumentaria";
 import Proteccion from "./components/secciones/Proteccion";
+import Motos from "./components/secciones/Motos";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/motos" element={<Motos />} />
         <Route exact path="/proteccion" element={<Proteccion />} />
         <Route exact path="/indumentaria" element={<Indumentaria />} />
         <Route exact path="/pregFrec" element={<PregFrec />} />

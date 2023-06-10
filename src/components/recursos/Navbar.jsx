@@ -10,6 +10,7 @@ export default function Navbar({ url }) {
 
   const navLinks = [
     { section: undefined, label: "Inicio" },
+    { section: "motos", label: "Motos" },
     { section: "proteccion", label: "Protección" },
     { section: "indumentaria", label: "Indumentaria" },
     { section: "pregFrec", label: "Preguntas Frecuentes" },

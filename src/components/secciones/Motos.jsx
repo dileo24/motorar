@@ -4,21 +4,26 @@ import Carrusel from "../recursos/Carrusel";
 import Footer from "../recursos/Footer";
 import Card from "../recursos/Card";
 import productos from "../../multimedia/productos.json";
-import seg1 from "../../multimedia/seg1.jpg";
-import seg2 from "../../multimedia/seg2.jpg";
-import seg3 from "../../multimedia/seg3.jpg";
+import sport from "../../multimedia/sport.jpg";
+import cross from "../../multimedia/cross.jpg";
+import street from "../../multimedia/street.jpg";
 
-export default function Proteccion() {
+export default function Motos() {
   const url = window.location.pathname.split("/").pop();
-  const pordProtecc = productos.filter((p) => p.tipo === "Protección");
+  const pordMotos = productos.filter(
+    (p) =>
+      p.tipo === "Moto Cross" ||
+      p.tipo === "Moto Street" ||
+      p.tipo === "Moto Sport"
+  );
 
   return (
     <div className="homeContainer">
       <Navbar url={url} />
-      <Carrusel img1={seg1} img2={seg2} img3={seg3} />
-      <div className="title">Nuestra Protección</div>
+      <Carrusel img1={sport} img2={cross} img3={street} />
+      <div className="title">Nuestras Motos</div>
       <div className="home-subContainer">
-        {pordProtecc.map((p) => (
+        {pordMotos.map((p) => (
           <div key={p.id}>
             <Card nombre={p.nombre} precio={p.precio} img={p.img} id={p.id} />
           </div>

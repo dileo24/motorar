@@ -17,7 +17,13 @@ export default function Home() {
       <div className="home-subContainer">
         {productos.map((p) => (
           <div key={p.id}>
-            <Card nombre={p.nombre} precio={p.precio} img={p.img} id={p.id} />
+            <Card
+              nombre={p.nombre}
+              precio={p.precio}
+              img={p.img}
+              tipo={p.tipo}
+              id={p.id}
+            />
           </div>
         ))}
       </div>

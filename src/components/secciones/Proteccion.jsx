@@ -20,7 +20,13 @@ export default function Proteccion() {
       <div className="home-subContainer">
         {pordProtecc.map((p) => (
           <div key={p.id}>
-            <Card nombre={p.nombre} precio={p.precio} img={p.img} id={p.id} />
+            <Card
+              nombre={p.nombre}
+              precio={p.precio}
+              tipo={p.tipo}
+              img={p.img}
+              id={p.id}
+            />
           </div>
         ))}
       </div>

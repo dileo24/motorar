@@ -25,7 +25,13 @@ export default function Motos() {
       <div className="home-subContainer">
         {pordMotos.map((p) => (
           <div key={p.id}>
-            <Card nombre={p.nombre} precio={p.precio} img={p.img} id={p.id} />
+            <Card
+              nombre={p.nombre}
+              precio={p.precio}
+              tipo={p.tipo}
+              img={p.img}
+              id={p.id}
+            />
           </div>
         ))}
       </div>

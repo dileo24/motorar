@@ -1,10 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/secciones/Home";
-import Contacto from "./components/secciones/Contacto";
+import Contacto from "./components/formularios/Contacto";
 import PregFrec from "./components/secciones/PregFrec";
 import Indumentaria from "./components/secciones/Indumentaria";
 import Proteccion from "./components/secciones/Proteccion";
 import Motos from "./components/secciones/Motos";
+import FormCotizacion from "./components/formularios/FormCotizacion";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/indumentaria" element={<Indumentaria />} />
         <Route exact path="/pregFrec" element={<PregFrec />} />
         <Route exact path="/contacto" element={<Contacto />} />
+        <Route exact path="/formCotizacion" element={<FormCotizacion />} />
       </Routes>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../multimedia/logo2.PNG";
+import logo from "../../multimedia/logo2.PNG";
 
 export default function Navbar() {
   return (
@@ -22,6 +22,15 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <nav className="navbar-nav">
+              <a className="nav-link" href="/">
+                Inicio
+              </a>
+              <a className="nav-link" href="/proteccion">
+                Protección
+              </a>
+              <a className="nav-link" href="/indumentaria">
+                Indumentaria
+              </a>
               <a className="nav-link" href="/pregFrec">
                 Preguntas Frecuentes
               </a>

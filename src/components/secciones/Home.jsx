@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import productos from "../multimedia/productos.json";
-import Card from "./Card";
+import Navbar from "../recursos/Navbar";
+import Footer from "../recursos/Footer";
+import productos from "../../multimedia/productos.json";
+import Card from "../recursos/Card";
 import Carrusel from "./Carrusel";
 
 export default function Home() {

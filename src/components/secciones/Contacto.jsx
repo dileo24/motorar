@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useSpring, animated } from "react-spring";
-import enviadoCorr from "../multimedia/enviadoCorr.png";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import enviadoCorr from "../../multimedia/enviadoCorr.png";
+import Navbar from "../recursos/Navbar";
+import Footer from "../recursos/Footer";
 
 export default function Contacto() {
   const [, setEnviado] = useState(false);

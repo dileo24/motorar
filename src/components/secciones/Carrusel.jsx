@@ -1,7 +1,7 @@
 import React from "react";
-import sport from "../multimedia/sport.jpg";
-import cross from "../multimedia/cross.jpg";
-import street from "../multimedia/street.jpg";
+import sport from "../../multimedia/sport.jpg";
+import cross from "../../multimedia/cross.jpg";
+import street from "../../multimedia/street.jpg";
 
 export default function Carrusel() {
   return (

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import imgPreg from "../multimedia/pregFrec.png";
-import ojoAbierto from "../multimedia/ojoAbierto.png";
-import ojoCerrado from "../multimedia/ojoCerrado.png";
-import preguntas from "../multimedia/preguntas.json";
+import Navbar from "../recursos/Navbar";
+import Footer from "../recursos/Footer";
+import imgPreg from "../../multimedia/pregFrec.png";
+import ojoAbierto from "../../multimedia/ojoAbierto.png";
+import ojoCerrado from "../../multimedia/ojoCerrado.png";
+import preguntas from "../../multimedia/preguntas.json";
 
 export default function PregFrec() {
   const pagina = useLocation().pathname;

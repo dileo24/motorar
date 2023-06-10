@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Contacto from "./components/Contacto";
-import PregFrec from "./components/PregFrec";
+import Home from "./components/secciones/Home";
+import Contacto from "./components/secciones/Contacto";
+import PregFrec from "./components/secciones/PregFrec";
 
 function App() {
   return (
